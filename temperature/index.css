@@ -1,0 +1,41 @@
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(201, 250, 255);
+        }
+        .temperature {
+            padding-top: 100px;
+        } 
+        .temperature-h1 {
+            color: green;
+        }
+        .container {
+            margin: 0 auto;
+            padding: 100px;
+            max-width: 400px;
+            background-color: rgb(101, 189, 224);
+            border: 1px solid #030303;
+            border-radius: 5px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            font-weight: bold;
+        }
